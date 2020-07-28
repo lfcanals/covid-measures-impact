@@ -1,0 +1,49 @@
+Country,DateFrom,Class
+
+# Class 0 is during the "transition phase", when measure is supposed
+# has not still effect.
+#
+# Class 1 : no mandatory at all
+# Class 2 : only in shops/public transport and almost not used in general
+# Class 3 : everywhere mandatory
+#
+
+Spain,1900-01-01,1
+Spain,2020-07-02,0
+Spain,2020-07-17,3
+
+Switzerland,1900-01-01,1
+Switzerland,2020-06-07,0
+Switzerland,2020-06-21,2
+
+Denmark,1900-01-01,1
+
+Netherlands,1900-01-01,1
+Netherlands,2020-06-01,0
+Netherlands,2020-06-16,2
+
+Poland,1900-01-01,1
+Poland,2020-04-16,0
+Poland,2020-04-30,2
+Poland,2020-05-30,0
+Poland,2020-06-15,1
+
+Austria,1900-01-01,1
+Austria,2020-05-30,0
+Austria,2020-06-15,1
+
+Ireland,1900-01-01,1
+Ireland,2020-07-13,0
+Ireland,2020-07-28,2
+
+Finland,1900-01-01,1
+
+Sweden,1900-01-01,1
+
+UK,1900-01-01,1
+UK,2020-06-15,0
+UK,2020-06-30,2
+
+Germany,1900-01-01,1
+Germany,2020-04-22,0
+Germany,2020-05-07,2
