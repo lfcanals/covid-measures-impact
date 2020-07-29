@@ -33,4 +33,10 @@ def to_plot(inputFileName, outputFileName):
       writer.writerow(resultingRow)
 
 
-to_plot(sys.argv[1], sys.argv[2])
+if len(sys.argv) != 3:
+  print("Usage:")
+  print("        inputFileName: csv result of processing with 'process.py'")
+  print("        outputFile: csv separated by semi-colon with Y to plot clouds")
+  print
+else:
+  to_plot(sys.argv[1], sys.argv[2])
